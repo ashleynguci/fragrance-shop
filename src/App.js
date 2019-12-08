@@ -4,16 +4,28 @@ import {
   Route,
   Switch
 } from "react-router-dom";
+import ShopPage from "./pages/shop/Shop";
 import "./App.css";
+import Header from "./components/header/Header";
+import AuthenPage from "./pages/authen-page/AuthenPage";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Header />
       <Switch>
         <Route
           exact
           path="/"
           component={HomePage}
+        />
+        <Route
+          path="/shop"
+          component={ShopPage}
+        />
+        <Route
+          path="/signin"
+          component={AuthenPage}
         />
       </Switch>
     </div>
