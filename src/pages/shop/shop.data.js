@@ -8,32 +8,32 @@ export const SHOP_DATA = [
         id: 1,
         name: "Versace pour homme",
         imageUrl: require("../../image/bestsellers/versace-75.jpg"),
-        price: "€75"
+        price: 75
       },
       {
         id: 2,
         name: "Chanel No.5",
         imageUrl: require("../../image/bestsellers/chanel-no5-120.jpg"),
-        price: "€120"
+        price: 120
       },
       {
         id: 3,
         name: "DavidOff Cool water",
         imageUrl: require("../../image/bestsellers/Davidoff-Coolwater.jpg"),
-        price: "€68"
+        price: 68
       },
       {
         id: 4,
         name:
           "Lancome La vie est belle",
         imageUrl: require("../../image/bestsellers/lancome-lavie.png"),
-        price: "€110"
+        price: 110
       },
       {
         id: 5,
         name: "Acqua di GIO",
         imageUrl: require("../../image/bestsellers/aquadi-gio.jpg"),
-        price: "€65"
+        price: 65
       },
       {
         id: 6,
@@ -45,19 +45,19 @@ export const SHOP_DATA = [
         id: 7,
         name: "Jean Paul Gaultier EDT",
         imageUrl: require("../../image/bestsellers/jean-paul-60.jpg"),
-        price: "€60"
+        price: 60
       },
       {
         id: 8,
         name: "D&G Light Blue",
         imageUrl: require("../../image/bestsellers/d&g-lightblue.jpg"),
-        price: "€95"
+        price: 95
       },
       {
         id: 9,
         name: "1Million Parco Rabanne",
         imageUrl: require("../../image/bestsellers/parco-rabanne.jpg"),
-        price: "€74"
+        price: 74
       }
     ]
   },
@@ -70,31 +70,31 @@ export const SHOP_DATA = [
         id: 10,
         name: "Delina Exclusif",
         imageUrl: require("../../image/luxury/delina-exclusif-230.jpg"),
-        price: "€235"
+        price: 235
       },
       {
         id: 11,
         name: "Giorgio Armani",
         imageUrl: require("../../image/luxury/giorgio-armani-398.jpg"),
-        price: "€398"
+        price: 398
       },
       {
         id: 12,
         name: "Gris Dior",
         imageUrl: require("../../image/luxury/gris-dior-307.jpg"),
-        price: "€307"
+        price: 307
       },
       {
         id: 13,
         name: "Guerlains les Exclusifs",
         imageUrl: require("../../image/luxury/guerlains-205.jpg"),
-        price: "€205"
+        price: 205
       },
       {
         id: 14,
         name: "Oud Maison",
         imageUrl: require("../../image/luxury/oud-maison-290.jpg"),
-        price: "€290"
+        price: 290
       },
       {
         id: 15,
@@ -125,31 +125,31 @@ export const SHOP_DATA = [
         id: 18,
         name: "Pink Sugar",
         imageUrl: require("../../image/budget/pink-sugar-20.jpg"),
-        price: "€20"
+        price: 20
       },
       {
         id: 19,
         name: "Midnight Fantasy",
         imageUrl: require("../../image/budget/britney-14.5.jpg"),
-        price: "€14.5"
+        price: 14.5
       },
       {
         id: 20,
         name: "Reb'l Fleur Rihanna ",
         imageUrl: require("../../image/budget/rihana-18.jpg"),
-        price: "€18"
+        price: 18
       },
       {
         id: 21,
         name: "Lolita Lempicka",
         imageUrl: require("../../image/budget/lolita-25.jpg"),
-        price: "€25"
+        price: 25
       },
       {
         id: 22,
         name: "Someday by J.Bieber",
         imageUrl: require("../../image/budget/jbsd-18.9.jpg"),
-        price: "€19"
+        price: 19
       }
     ]
   },

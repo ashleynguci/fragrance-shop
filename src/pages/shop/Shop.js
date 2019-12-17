@@ -13,11 +13,11 @@ export default function Shop(props) {
           id,
           ...otherCollectionProps
         }) => (
-          <PreviewCollection
-            key={id}
-            {...otherCollectionProps}
-          />
-        )
+            <PreviewCollection
+              key={id}
+              {...otherCollectionProps}
+            />
+          )
       )}
     </div>
   );
