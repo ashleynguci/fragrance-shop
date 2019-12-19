@@ -39,7 +39,7 @@ const SHOP_DATA = {
         id: 6,
         name: "YSL Black Opium",
         imageUrl: require("../../image/bestsellers/ysl-blackopium.jpg"),
-        price: "€85"
+        price: 85
       },
       {
         id: 7,
@@ -58,7 +58,7 @@ const SHOP_DATA = {
         name: "1Million Parco Rabanne",
         imageUrl: require("../../image/bestsellers/parco-rabanne.jpg"),
         price: 74
-      }
+      },
     ]
   },
   luxury: {
@@ -133,6 +133,24 @@ const SHOP_DATA = {
         imageUrl: require("../../image/budget/truth-dare-40.jpeg"),
         price: 30
       },
+      {
+        id: 40,
+        name: "Pink Sugar",
+        imageUrl: require("../../image/budget/pink-sugar-20.jpg"),
+        price: 20
+      },
+      {
+        id: 41,
+        name: "Moschino",
+        imageUrl: require("../../image/budget/moschino-20.jpg"),
+        price: 20
+      },
+      {
+        id: 42,
+        name: "Ferragamo",
+        imageUrl: require("../../image/budget/ferragamo-35.jpg"),
+        price: 35
+      },
     ]
   },
   womens: {
@@ -181,7 +199,32 @@ const SHOP_DATA = {
         name: "Coco Chanel",
         imageUrl: require("../../image/womens/coco-chanel.jpg"),
         price: 20
-      }
+      },
+      {
+        id: 43,
+        name: "Poison Girl Dior",
+        imageUrl: require("../../image/womens/dior-poison-100.jpg"),
+        price: 100
+      },
+      {
+        id: 44,
+        name: "YSL Black Opium",
+        imageUrl: require("../../image/bestsellers/ysl-blackopium.jpg"),
+        price: 85
+      },
+      {
+        id: 45,
+        name: "Chanel No.5",
+        imageUrl: require("../../image/bestsellers/chanel-no5-120.jpg"),
+        price: 120
+      },
+      {
+        id: 46,
+        name:
+          "Lancome La vie est belle",
+        imageUrl: require("../../image/bestsellers/lancome-lavie.png"),
+        price: 110
+      },
     ]
   },
   mens: {
@@ -225,7 +268,25 @@ const SHOP_DATA = {
         name: "Jean Paul",
         imageUrl: require("../../image/mens/jean-paul-60.jpg"),
         price: 60
-      }
+      },
+      {
+        id: 52,
+        name: "CK be",
+        imageUrl: require("../../image/mens/ck-35.jpg"),
+        price: 55
+      },
+      {
+        id: 53,
+        name: "Lanuit de l'homme YSL",
+        imageUrl: require("../../image/mens/ysl-lanuit-70.jpeg"),
+        price: 70
+      },
+      {
+        id: 54,
+        name: "DavidOff Cool water",
+        imageUrl: require("../../image/bestsellers/Davidoff-Coolwater.jpg"),
+        price: 68
+      },
     ]
   }
 };
